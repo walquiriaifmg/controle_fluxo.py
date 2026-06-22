@@ -17,7 +17,7 @@ Programa em Python com menu para praticar estruturas condicionais, laços de rep
 -Git init, add, commit e push
 - Publicação de repositório no GitHub
 
-## Como executar
+## Como executar segundo as instruções da apostila
 - git config --global user.name "Seu Nome"
 - git config --global user.email "seu-email@exemplo.com"
 - git config --global --list
