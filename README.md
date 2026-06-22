@@ -18,13 +18,13 @@ Programa em Python com menu para praticar estruturas condicionais, laços de rep
 - Publicação de repositório no GitHub
 
 ## Como executar
-git config --global user.name "Seu Nome"
-git config --global user.email "seu-email@exemplo.com"
-git config --global --list
-crie o arquivo controle_fluxo.py
-git init
-git status
-git add controle_fluxo.py
-git status
-git commit -m "..."
-git log --oneline
+- git config --global user.name "Seu Nome"
+- git config --global user.email "seu-email@exemplo.com"
+- git config --global --list
+- crie o arquivo controle_fluxo.py
+- git init
+- git status
+- git add controle_fluxo.py
+- git status
+- git commit -m "..."
+- git log --oneline
