@@ -1,8 +1,9 @@
 def mostrar_menu():
-    print("\n=== Menu de estudos ===")
+    print("=== Menu de estudos ===")
     print("1 - Contar de 1 até um número")
     print("2 - Calcular média de notas")
-    print("3 - Sair")
+    print("3 - Mostrar a tabuada de um número")
+    print("4 - Sair")
 
 
 while True:
@@ -35,6 +36,12 @@ while True:
             print("Situação: reprovado")
 
     elif opcao == "3":
+        numero = int(input("Digite um número para ver a tabuada: "))
+        print(f"Tabuada do {numero}:")
+        for i in range(1, 11):
+            print(f"{numero} x {i} = {numero * i}")
+
+    elif opcao == "4":
         print("Encerrando o programa...")
         break
 
